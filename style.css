@@ -1,0 +1,30 @@
+body{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.header{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.menu{
+	background-color: #000;
+	text-align: center;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	padding: 10px 10px;
+	text-transform: uppercase;
+}
+
+.menu a:hover{
+	transform: rotate(-5deg);
+	transition: 0.5s;
+}
+
